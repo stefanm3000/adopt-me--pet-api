@@ -32,10 +32,10 @@ class Details extends React.Component {
     return (
       <div className="details">
         <div>
-        <h1>{name}</h1>
-        <h2>{`${animal} - ${breed} - ${location}`}</h2>
-        <button>Adopt {name}</button>
-        <p>{description}</p>
+          <h1>{name}</h1>
+          <h2>{`${animal} - ${breed} - ${location}`}</h2>
+          <button>Adopt {name}</button>
+          <p>{description}</p>
         </div>
       </div>
     );
