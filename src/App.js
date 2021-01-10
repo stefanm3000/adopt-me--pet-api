@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import SearchParams from "./SearchParams";
 import { Link, Router } from "@reach/router";
 import Details from "./Details";
@@ -9,7 +8,10 @@ const App = () => {
   const themeHook = useState("#ff9797");
 
   return (
+    
     <React.StrictMode>
+      <div id="modal"></div>
+      <div id="root">
       <ThemeContext.Provider value={themeHook}>
         <div>
           <header>
@@ -21,8 +23,10 @@ const App = () => {
           </Router>
         </div>
       </ThemeContext.Provider>
+      </div>
     </React.StrictMode>
+    
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App
