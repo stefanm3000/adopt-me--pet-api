@@ -1,3 +1,4 @@
 # Petfinder API app
 
-Previously using parcel, converted to webpack and CRA
+A pet-finder website using @frontendmaster/pet API.
+Previously using parcel, converted to webpack and CRA.
